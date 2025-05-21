@@ -3,7 +3,7 @@ body {
     font-size: 12px;
     color: #697CA6;}
 .container{
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -15,18 +15,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .left-side {
     display: flex;
     align-items: center;
+    margin-right: 360px;
 }
 .round{
     margin-right: 73px;
-}
-
-.nav-flex a {
-    margin-right: 42px;
+    margin-left: 117px;
 }
 
 a {
@@ -42,17 +41,28 @@ a {
     font-size: 13px;
     border: none;
     font-weight: bold;
+    margin-right: 117px;
 }
-.social a{
-    margin-right: 52px;
+
+.social{
+    margin-right: 44px;
+    display: flex;
+    justify-content: space-between;
+    gap: 34px;
 }
+.plan{
+    width: 90px;
+    height: 12px;
+    text-align: center;
+    padding-top:  92px;
+    margin-left: 667px;
+    margin-bottom: 16px;
+}
+
 
 h6{
     font-family: "Roboto",sans-serif;
     font-size: 10px;
-    font-weight: medium;
-    text-align: center;
-    padding-top:  92px;;
 }
 
 h1{
@@ -71,17 +81,15 @@ h1{
 .nero-text{
     color: #8D96BD;
     font-family: "Roboto",sans-serif;
-    text-align: center;
     font-size: 15px;
     margin-top: 16px;
-    margin-right:auto;
-    margin-left:auto;
-    width: 502px;
+    line-height: 191%; 
 }
 
 .main-info-container{
-    background-image:url(assets/hero\ image.svg);
+    background-image:url(assets/hero\ image\ \(2\).svg);
     background-repeat: no-repeat;
+    height: 570px;
 }
 
 .small-triangle{
@@ -92,4 +100,58 @@ h1{
     border: 0;
     background-color: #FFFFFF;
     padding-top: 20px;
+    margin-top: 20px;
+
+}
+.brute-text{
+    width: 460px;
+    height: 78px;
+    margin: auto;
+    text-align: center;
+}
+.div-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 42px;
+}
+li {
+    list-style-type: none;}
+
+.companies-list{
+    display: flex;
+    margin-right: 76px;
+    margin-top: 62px;
+    padding: auto;
+    margin-bottom: 63px;
+    gap: 76px;
+    margin-left: 276px;
+}
+.desktope-container{
+    background-image: url(assets/hero_desktope.svg);
+    background-repeat: no-repeat;
+    width: 1440px;
+}
+
+h2{
+font-weight: lighter;
+    font-size: 36px;
+}
+.plan{
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.manage{
+    font-weight: bolder;
+    font-size: 36px;
+}
+.desktop{
+    text-align: left;
+    margin-left: 271px;
+}
+
+.plan-and-manage{
+    text-align: left;
+    margin-left: 271px;
+    padding-top: 27px;
 }
