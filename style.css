@@ -47,9 +47,32 @@ a {
     margin-right: 52px;
 }
 
-h1{
+h6{
     font-family: "Roboto",sans-serif;
     font-size: 10px;
     font-weight: medium;
     text-align: center;
+}
+
+h1{
+    font-weight: lighter;
+    font-size: 48px;
+    text-align: center;
+    color: #3D4F9F;
+}
+.productivity{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.nero-text{
+    color: #8D96BD;
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 28px;
+    margin-right: 40px;
+    margin-left: 39px;
+    position: relative;
+
 }
