@@ -1,4 +1,3 @@
-
 body {
     font-family: "Quicksand", sans-serif;;
     font-size: 12px;
@@ -122,22 +121,24 @@ li {
     display: flex;
     margin-right: 76px;
     margin-top: 62px;
-    padding: auto;
     margin-bottom: 63px;
     gap: 76px;
     margin-left: 276px;
 }
-.desktope-container{
-    background-image: url(assets/hero_desktope.svg);
+
+
+.desktop-container {
+    background-image: url(assets/hero\ image\ container\ 2.svg);
     background-repeat: no-repeat;
     width: 1440px;
+    height: 776px;
 }
 
 h2{
 font-weight: lighter;
     font-size: 36px;
 }
-.plan{
+.pla{
     font-weight: bolder;
     font-size: 36px;
 }
@@ -146,21 +147,146 @@ font-weight: lighter;
     font-weight: bolder;
     font-size: 36px;
 }
-.desktop{
-    text-align: left;
-    margin-left: 271px;
+
+
+
+.main-info-desktop{
+    width: 413px;
+    height: 352px;
+    margin-left: 285px;
+    padding-top: 208px;
 }
 
 .plan-and-manage{
-    text-align: left;
-    margin-left: 271px;
     padding-top: 27px;
+    padding-bottom: 27px;
 }
 
+.buttons-on-desktop{
+    padding-top: 47px;
+}
 
+.view-video{
+    color: #FFFFFF;
+    padding: 13px 37px 13px 25px;
+    background-color: #4C85FF;
+    font-family: "Quicksand", sans-serif;
+    font-size: 13px;
+    border: none;
+    font-weight: bold;
 
+}
 
+.see-features{
+    color: #ADB4D2;
+    background-color: transparent;
+    font-family: "Quicksand", sans-serif;
+    font-size: 13px;
+    padding: 13px 37px 13px 25px;
+}
 
+.app-container{
+    width: 1441px;
+    height: 885px;
+    background-image: url(assets/features.svg);
+    background-repeat: no-repeat;
+}
+
+.us{
+    width: 56px;
+    height: 12px;
+    padding-top: 171px;
+    margin-left: 692px;
+
+}
+
+h5{
+    font-size: 24px;
+    color: #3D4F9F;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+}
+.read{
+    margin-left: 605px;
+    padding-top: 20px;
+}
+
+.blocks{
+    display: flex;
+    justify-content: center;
+    padding-top: 92px;
+    margin-left: 376px;
+    gap: 67px;
+    margin-right: 340px;
+}
+
+.overview{
+    width: 140px;
+    height: 254px;
+}
+.overview-src{
+    width: 14px;
+    height: 17px;
+}
+.overview-image{
+    display: block;
+    margin: 0 auto;
+    padding:  26px 28px 26px 27px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.overview-text{
+    padding-top: 35px;
+    padding-bottom: 25px;
+
+}
+
+h
+
+.files-src{
+    width: 23px;
+    height: 14px;
+}
+.files-img{
+    display: block;
+    margin: 0 auto;
+    padding:  28px 23px 27px 23px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.meeting-src{
+    width: 18px;
+    height: 15px;
+}
+.meeting-img{
+    display: block;
+    margin: 0 auto;
+    padding:  27px 25px 27px 26px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.save-src{
+    width: 17px;
+    height: 16px;
+}
+.save-img{
+    display: block;
+    margin: 0 auto;
+    padding:  27px 26px 27px 26px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #FFFFFF;
+    align-items: center;
+}
 
 
 
@@ -188,6 +314,12 @@ font-weight: lighter;
 
 
 }
+
+.statistic-container{
+    display: flex;
+    width: 1440px;
+    height: 343px;
+}
 .left-statistics-text{
     font-size: 18px;
     padding-top: 19px;
@@ -206,13 +338,31 @@ font-weight: lighter;
     font-weight: lighter;
 }
 
+.right-statistics{
+    width: 720px;
+    height: 342px;
+    text-align: left;
+    color: #5E80FF;
+    font-family: "Quicksand",sans-serif;
+    background-image: url(assets/stats.svg)
+}
 
+.people-img{
+    padding-top: 70px;
+    margin-left: 90px;
+}
 
+.statistics-right{
+    font-size: 48px;
+    padding-top: 24px;
+    margin-left: 90px;
+}
 
+.right-statistics-text{
+    width: 260px;
+    height: 45px;
+    margin-left: 90px;
+    padding-top: 19px;
+    font-size: 18px;
 
-
-
-
-
-
-
+}
