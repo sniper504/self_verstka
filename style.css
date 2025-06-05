@@ -1,3 +1,4 @@
+
 body {
     font-family: "Quicksand", sans-serif;;
     font-size: 12px;
@@ -364,5 +365,134 @@ h
     margin-left: 90px;
     padding-top: 19px;
     font-size: 18px;
+
+}
+
+.blog-container{
+    width: 1440px;
+    height: 865px;
+    background-image: url(assets/blog\ \(1\).svg);
+}
+
+.our-resourses{
+    width: 91px;
+    margin-left: 672px;
+    padding-top: 104px;
+}
+
+.reading-blog{
+    padding-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 593px;
+    margin-right: 593px;
+    height: 30px;
+    width: 253px;
+    font-weight: 500;
+
+}
+#h53{
+    font-weight: 500;
+}
+
+.main-info-blog{
+    margin-left: 750px;
+    padding-top: 155px;
+
+}
+#h44{
+    font-size: 36px;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 400;
+
+}
+#p4{
+    width: 408px;
+    height: 116px;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    padding-top: 32px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 191%;
+    color: #8D96BD;
+    letter-spacing: 3%;
+}
+.read-now{
+    color: #3A79FF;
+    padding: 13px 15px 13px 16px ;
+    background-color: #D2E1FF;
+    font-family: "Quicksand", sans-serif;
+    font-size: 13px;
+    border: none;
+    font-weight: bold;
+    margin-left: 750px;
+    margin-top: 31px;
+}
+
+.add-to-your-bookmarks{
+    padding: 13px 15px 13px 15px;
+    background-color: #FFFFFF;
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    color: #A6B6DA;
+    font-size: 13px;
+}
+
+.testimonials-container{
+    background-image: url(assets/content.png);
+    width: 1651px;
+    height: 479px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+.testimonials{
+    margin-left: 276px;
+    padding-top: 146px;
+}
+.quotes{
+    padding-top: 31px;
+    margin-left: 276px;
+    font-weight: 500;
+}
+
+.testimonials-text{
+    padding-top: 14px;
+    margin-left: 276px;
+    width: 323px;
+    stroke: #DFE2EF;
+}
+
+.main-info-testimonials{
+    margin-left: 810px;
+    margin-top: -110px;
+
+}
+#p5{
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    letter-spacing: 0.03em; 
+    line-height: 171%;
+    width: 283px;
+    height: 81px;
+}
+
+.main-info-testimonials-2{
+ margin-left: 1299px;
+ margin-top: -89px;
+ width: 151px;
+ height: 65px;
+ color: #8D96BD;
+ font-family: "Roboto",sans-serif;
+}
+
+#p6{
+    font-size: 14px;
+    line-height: 191%;
+    letter-spacing: 0.03em; 
+    font-weight: 400;
+    stroke: #DFE2EF;
 
 }
