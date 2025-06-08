@@ -8,6 +8,10 @@ body {
     margin: 0 auto;
 }
 
+html, body {
+    scroll-behavior: smooth;
+  }
+
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
 }    
@@ -210,23 +214,26 @@ font-weight: lighter;
 
 
 
-.see-features{
+.see-features {
     color: #ADB4D2;
     background-color: transparent;
     font-family: "Quicksand", sans-serif;
     font-size: 13px;
-    padding: 13px 21px 13px 21px;
-    border-width: 1px;
-    position: absolute;
-    height: 43px;
-    width: 130px;
-    border-color: #D1D1E4;
+    padding: 13px 21px;
+    border: 1px solid #D1D1E4;
     font-weight: 500;
-    transition: 1s;
-  }
-  .see-features:hover{
-    transform: scale(1.1);
-  }
+    position: absolute;
+    width: 130px;
+    height: 43px;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.see-features:hover {
+    background-color: #D1D1E4;
+    color: #ffffff;
+}
 
 
 .app-container{
