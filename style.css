@@ -245,7 +245,7 @@ h5{
     margin: 0 auto;
     border-radius: 50%;
     border: 0;
-    background-color: #FFFFFF;
+    background-color: #F1F5FF;
     align-items: center;
 }
 
@@ -275,7 +275,7 @@ h5{
     margin: 0 auto;
     border-radius: 50%;
     border: 0;
-    background-color: #FFFFFF;
+    background-color: #F1F5FF;
     align-items: center;
 }
 .files-src{
@@ -295,7 +295,7 @@ h5{
     margin: 0 auto;
     border-radius: 50%;
     border: 0;
-    background-color: #FFFFFF;
+    background-color: #F1F5FF;
     align-items: center;
 }
 .meeting-chats{
@@ -315,7 +315,7 @@ h5{
     margin: 0 auto;
     border-radius: 50%;
     border: 0;
-    background-color: #FFFFFF;
+    background-color: #F1F5FF;
     align-items: center;
 }
 
@@ -340,6 +340,7 @@ h5{
     font-weight: bold;
     font-size: 13px;
     padding: 13px 15px 13px 16px;
+    border: none;
 
 }
 
@@ -647,6 +648,7 @@ h5{
     background-color: #E8ECF4;
     font-family: "Quicksand", sans-serif;
     font-weight: 500;
+    border: none;
 }
 
 .question-item-right-text-4{
